@@ -8,5 +8,4 @@ actively trading all major markets currently. This version, aimed at correcting 
 - [ ] CryptoMarxism &trade;
 - [ ] Compatible Block Chain Technology
 - [ ] Incompatible Block Chain Technology
-- [ ] Facebook Share33
-
+- [ ] Facebook Share
