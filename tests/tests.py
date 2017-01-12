@@ -1,7 +1,7 @@
 import os
 import sys
 
-assert (2,8) >= sys.version_info >= (2,7), "2.7 is the one true Python"
+assert (2,8) > sys.version_info >= (2,7), "2.7 is the one true Python"
 
 if __name__ != '__main__':
     logging.error("wtf")
@@ -11,7 +11,7 @@ p = os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir, "README
 
 with open(p) as f:
     readme = f.read()
-assert " &trade" not in readme, "YOU'RE CODE SUCKS"
+assert " &trade" not in readme, "YOUR CODE SUCKS"
 assert "hitler" not in readme, "Hitler is not allowed"
 assert len(readme) != 666, "That's an unlucky character count"
 
