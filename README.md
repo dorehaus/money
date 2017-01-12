@@ -9,3 +9,7 @@ actively trading all major markets currently. This version, aimed at correcting 
 - [ ] Compatible Block Chain Technology
 - [ ] Incompatible Block Chain Technology
 - [ ] Facebook Share
+
+
+## Maintainence
+run `python2.7 tests/tests.py` before making a pull requests!
